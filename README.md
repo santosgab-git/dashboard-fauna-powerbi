@@ -29,14 +29,14 @@ Analizar la gestión de fauna en proyectos ambientales, evaluando:
 
 ## 📁 Estructura del proyecto
 
-dashboard-fauna-powerbi/
-│
-├── data/
-├── pbix/
-├── sql/
-├── python/
-├── images/
-└── README.md
+Este repositorio está organizado de la siguiente manera:
+
+- **data/** → Datos fuente utilizados en el análisis  
+- **pbix/** → Archivo del dashboard en Power BI  
+- **sql/** → Consultas para cálculo de KPIs  
+- **python/** → Scripts para generación y limpieza de datos  
+- **images/** → Imágenes del dashboard para visualización en el README  
+
 
 ## 🚀 Cómo usarlo
 
