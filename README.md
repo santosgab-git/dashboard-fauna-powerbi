@@ -31,12 +31,30 @@ Analizar la gestión de fauna en proyectos ambientales, evaluando:
 
 Este repositorio está organizado de la siguiente manera:
 
-- **data/** → Datos fuente utilizados en el análisis  
+- **data/** → Datos fuente y archivos auxiliares (incluye `secciones.xlsx`)
 - **pbix/** → Archivo del dashboard en Power BI  
 - **sql/** → Consultas para cálculo de KPIs  
 - **python/** → Scripts para generación y limpieza de datos  
 - **images/** → Imágenes del dashboard para visualización en el README  
 
+## 🧩 Archivo auxiliar (secciones)
+
+Se utilizó un archivo adicional en Excel:
+
+- **data/secciones.xlsx**
+
+Este archivo contiene la relación entre la **clase taxonómica** y las **URLs de imágenes**, lo que permite construir un segmentador visual (slicer con imágenes) en Power BI.
+
+### 🔗 Relación en el modelo de datos
+
+- `registros[clase]` → `secciones[clase]`
+
+### 🎨 Valor agregado
+
+Este componente permite:
+- Mejorar la experiencia de usuario  
+- Facilitar la navegación visual del dashboard  
+- Aportar un diseño más interactivo y profesional  
 
 ## 🚀 Cómo usarlo
 
